@@ -1,0 +1,29 @@
+{
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+
+body {
+	text-align: center;
+	background: white;
+}
+
+
+
+#car {
+	background-image: url('images/car.png');
+	width: 388px;
+	height: 129px;
+	position: relative;
+	margin: 0 ;
+	/*took 0 auto out of margin*/
+}
+
+/*#container {
+	width: 1200px;
+	height: 700px;
+	border-style: dashed;
+}*/

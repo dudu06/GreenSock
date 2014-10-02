@@ -1,0 +1,85 @@
+<DOCTYPE! html>
+<html>
+<head> 
+	<meta charset="utf-8">
+	<title>PRACTICE GREENSOCK</title> 
+	<link rel="stylesheet" type="css" href="styles.css">
+	<!-- <script type="text/javascript" src="events.js"></script> -->
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/plugins/CSSPlugin.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/easing/EasePack.min.js"></script>
+	<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.13.2/TweenLite.min.js"></script>
+	
+<script type="text/javascript">
+	// window.onload=function(){
+	// TweenLite.to("#car",1.5,{top:350});
+	// TweenLite.from("#car",4,{right:400, delay:2, ease:Back.easeOut});
+	// }
+
+window.onload = function(){
+var logo = document.getElementById("car");
+
+    // TweenLite.to(car, 5, {left:"632px"});
+    
+
+    // TweenLite.to(car, 3, {left:"440px", ease:Bounce.easeOut});
+    
+
+    // TweenLite.to(car,7, {left:"440px", ease:Elastic.easeIn});
+    
+
+    // TweenLite.to(car,7, {left:"440px", ease:Elastic.easeInOut});
+    
+
+    // TweenLite.to(logo,4, {left:"440px", ease:Power4.easeIn});
+    // The power ease goes from 0 - 4. 4 being the strongest
+    
+
+    // TweenLite.to(car, 2, {left:"542px",
+    //                    backgroundColor:"black",
+    //                    borderBottomColor:"#90e500",
+    //                    color:"white"});
+    // We can tween multiple properties like above!
+
+
+    // TweenLite.from(car, 2, {opacity:0, right:"200px"});
+    // This type of tween will allow you to change the opacity of your object
+
+
+    // TweenLite.to(car, 0.5, {left:"+=100px"});
+    // If you made an onclick function on the car object, each time you clicked the car, it would move 100px forward each time. 
+
+
+ 	// var car = document.getElementById("car");
+	// TweenLite.to(car, 1, {scale:0.2, opacity:0.3});
+	// This would make the car large on onload and small as the page loads! So cool!
+
+
+	// var car = document.getElementById("car"),
+  	//       restartBtn = document.getElementById("restartBtn"),
+  	//       tween = TweenLite.to(car, 1, {left:"632px"});
+         
+  	//    restartBtn.onclick = function() {
+  	//       tween.restart();
+  	//  } 
+  	// This would allow you to restart the animation once you click the restart button! Extra cool!
+  	
+
+
+}
+
+
+</script>
+</head>
+
+<body> 
+	<article id="one"></div>
+
+	<div id="car"></div>	
+
+	<input type="button" id="restartBtn" value="restart()">
+
+	<input type="button" id="playBtn" value="play()">
+	
+	
+</body> 
+</html>
